@@ -55,5 +55,5 @@ for (s in 1:numSubjects) {
     row = row+1
   }
 }
-write.table(result, "finaloutcome_tidydata.txt")
+write.table(result, "finaloutcome_tidydata.txt", row.name=FALSE)
 dim(result)
